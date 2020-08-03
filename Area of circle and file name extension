@@ -1,0 +1,12 @@
+#area of a circle
+import math
+r=float(input("enter radious"))
+area=math.pi*r*r
+print(".2f"%area)
+
+
+#file name extension
+filename=input("enter filename")
+extens=filename.splut(".")
+print("the extension hof the file name"+(repr(extens[1]))
+
