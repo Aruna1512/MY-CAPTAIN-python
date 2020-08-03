@@ -1,0 +1,20 @@
+#fibonacci series
+n=int(input("enter n for number terms to print")
+first num=0
+second num=1
+temp=0
+if(n<=0):
+    print("enter a positive number")
+elif(n==1):
+    print(first num,second num)
+else:
+    print("the fibonacci series is:")
+    while(temp<n):
+        print(first num)
+        new num=first num+second num
+        first num=second num
+        second num=new num
+        temp+=1
+        
+    
+
