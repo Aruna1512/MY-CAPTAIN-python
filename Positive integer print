@@ -1,0 +1,33 @@
+#print the positive integer in the list
+List1=[]
+List2=[]
+size1=int(input("enter the size of list1"))
+size2=int(input("enter the size of list2"))
+#List1
+
+for i in range(0,size1):
+    n=int(input())
+    List1.append(n)
+    i+=1
+print("Elements in list1")
+for j in List1:
+    print(j)
+print("positve elements in List1 are")
+for i in List1:
+    if i>0:
+       print(i)
+#List2
+
+for k in range(0,List2):
+     m=int(input())
+     List2.append(m)
+     k+=1
+print("elements in List2")
+for l in List2:
+     print(l)
+print("positive elements in List2")
+for k in List2:
+     if k>0:
+        print(k)
+     
+     
